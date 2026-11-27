@@ -1,0 +1,7 @@
+git
+jq
+openssh-clients
+rsync
+tar
+gzip
+unzip

@@ -1,0 +1,9 @@
+---
+collections:
+  - name: ansible.controller
+    version: "4.5.36"
+    source: https://console.redhat.com/api/automation-hub/content/published/
+  - name: community.vmware
+  - name: community.general
+  - name: kubernetes.core
+  - name: ansible.posix

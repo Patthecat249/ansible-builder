@@ -1,0 +1,21 @@
+# Lokale Zugangsdaten
+token-automationhub
+*.tar
+.env
+.env.local
+.env.*.local
+
+# Generierter Build-Kontext und exportierte Container-Images
+/context/
+/ansible-ee-ubi10/context/
+/ansible-ee-ubi10/ansible-ee-ubi10*.tar
+/ansible-ee-ubi10/releases/**/*.oci.tar
+
+# Lokal erzeugte Trivy-Berichte
+/ansible-ee-ubi10/report-*.json
+/ansible-ee-ubi10/reports/
+
+# Lokale Python-Umgebungen und Cache-Dateien
+.venv/
+__pycache__/
+*.py[cod]

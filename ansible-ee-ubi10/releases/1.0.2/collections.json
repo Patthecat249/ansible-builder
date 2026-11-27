@@ -1,0 +1,1 @@
+{"/usr/share/ansible/collections/ansible_collections": {"ansible.controller": {"version": "4.5.36"}, "ansible.posix": {"version": "2.2.2"}, "community.general": {"version": "14.0.1"}, "community.library_inventory_filtering_v1": {"version": "1.1.5"}, "community.vmware": {"version": "7.0.0"}, "kubernetes.core": {"version": "6.6.0"}, "vmware.vmware": {"version": "2.13.0"}}}

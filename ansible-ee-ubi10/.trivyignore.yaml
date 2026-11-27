@@ -1,0 +1,16 @@
+---
+vulnerabilities:
+  - id: CVE-2025-47273
+    purls:
+      - "pkg:pypi/setuptools@70.3.0"
+    statement: "pip vendored setuptools component. PackageIndex code not included."
+
+  - id: CVE-2026-59890
+    purls:
+      - "pkg:pypi/setuptools@70.3.0"
+    statement: "pip vendored setuptools component. Affected sdist code not included."
+
+  - id: GHSA-xmj3-9gf7-h52w
+    purls:
+      - "pkg:pypi/setuptools@70.3.0"
+    statement: "pip vendored setuptools component. Affected wheel installation code not included."

@@ -1,0 +1,37 @@
+]633;E;echo "=== Build Date ===";5a9f0a19-311e-4fe0-9aac-d6319503fd5b]633;C=== Build Date ===
+2026-11-27T00:29:51+01:00
+=== Operating System ===
+NAME="Rocky Linux"
+VERSION="9.3 (Blue Onyx)"
+ID="rocky"
+ID_LIKE="rhel centos fedora"
+VERSION_ID="9.3"
+PLATFORM_ID="platform:el9"
+PRETTY_NAME="Rocky Linux 9.3 (Blue Onyx)"
+ANSI_COLOR="0;32"
+LOGO="fedora-logo-icon"
+CPE_NAME="cpe:/o:rocky:rocky:9::baseos"
+HOME_URL="https://rockylinux.org/"
+BUG_REPORT_URL="https://bugs.rockylinux.org/"
+SUPPORT_END="2032-05-31"
+ROCKY_SUPPORT_PRODUCT="Rocky-Linux-9"
+ROCKY_SUPPORT_PRODUCT_VERSION="9.3"
+REDHAT_SUPPORT_PRODUCT="Rocky Linux"
+REDHAT_SUPPORT_PRODUCT_VERSION="9.3"
+=== Ansible Builder ===
+3.2.0
+=== Podman ===
+podman version 5.8.2
+=== Buildah ===
+buildah version 1.43.4 (image-spec 1.1.1, runtime-spec 1.2.1)
+=== Python ===
+Python 3.12.16
+=== Trivy ===
+Version: 0.50.4
+Vulnerability DB:
+  Version: 2
+  UpdatedAt: 2026-11-26 19:04:08.560197506 +0000 UTC
+  NextUpdate: 2026-11-27 19:04:08.560197215 +0000 UTC
+  DownloadedAt: 2026-11-26 22:34:01.558736368 +0000 UTC
+=== Architecture ===
+x86_64

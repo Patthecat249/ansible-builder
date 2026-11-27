@@ -1,0 +1,5 @@
+Not root, Subscription Management repositories not updated
+repo id                                  repo name
+codeready-builder-for-ubi-10-x86_64-rpms Red Hat Universal Base Image 10 (RPMs) - CodeReady Builder
+ubi-10-for-x86_64-appstream-rpms         Red Hat Universal Base Image 10 (RPMs) - AppStream
+ubi-10-for-x86_64-baseos-rpms            Red Hat Universal Base Image 10 (RPMs) - BaseOS

@@ -1,0 +1,417 @@
+[
+     {
+          "Id": "84d61c739a659b0133437165d8d226e5053ee3a8be64995da351d4da89e7c7cc",
+          "Digest": "sha256:470d6137e1fe7d2f9097098a9068983c62f7f585ec120f556b82f670f59f17ed",
+          "RepoTags": [
+               "localhost/ansible-ee-ubi10:1.0.2"
+          ],
+          "RepoDigests": [
+               "localhost/ansible-ee-ubi10@sha256:470d6137e1fe7d2f9097098a9068983c62f7f585ec120f556b82f670f59f17ed"
+          ],
+          "Parent": "ac7b653ada32994aec0dafaee944f3af190734eb2f5b61c27d773326378497b8",
+          "Comment": "",
+          "Created": "2026-11-26T23:05:44.736175134Z",
+          "Config": {
+               "User": "1000",
+               "Env": [
+                    "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                    "container=oci",
+                    "PIP_BREAK_SYSTEM_PACKAGES=1",
+                    "PIP_IGNORE_INSTALLED=0"
+               ],
+               "Entrypoint": [
+                    "/opt/builder/bin/entrypoint",
+                    "dumb-init"
+               ],
+               "Cmd": [
+                    "bash"
+               ],
+               "WorkingDir": "/runner",
+               "Labels": {
+                    "ansible-execution-environment": "true",
+                    "architecture": "x86_64",
+                    "build-date": "2026-11-20T19:15:00Z",
+                    "com.redhat.component": "ubi10-container",
+                    "com.redhat.license_terms": "https://www.redhat.com/en/about/red-hat-end-user-license-agreements#UBI",
+                    "cpe": "cpe:/o:redhat:enterprise_linux:10.3",
+                    "description": "The Universal Base Image is designed and engineered to be the base layer for all of your containerized applications, middleware and utilities. This base image is freely redistributable, but Red Hat only supports Red Hat technologies through subscriptions for Red Hat products. This image is maintained by Red Hat and updated regularly.",
+                    "distribution-scope": "public",
+                    "io.buildah.version": "1.43.1",
+                    "io.k8s.description": "The Universal Base Image is designed and engineered to be the base layer for all of your containerized applications, middleware and utilities. This base image is freely redistributable, but Red Hat only supports Red Hat technologies through subscriptions for Red Hat products. This image is maintained by Red Hat and updated regularly.",
+                    "io.k8s.display-name": "Red Hat Universal Base Image 10",
+                    "io.openshift.expose-services": "",
+                    "io.openshift.tags": "base rhel10",
+                    "maintainer": "Red Hat, Inc.",
+                    "name": "ubi10/ubi",
+                    "org.opencontainers.image.created": "2026-11-20T19:15:00Z",
+                    "org.opencontainers.image.revision": "4355509c0ae97480fdce08ec46742f3c713993b4",
+                    "release": "1795201936",
+                    "summary": "Provides the latest release of Red Hat Universal Base Image 10.",
+                    "url": "https://catalog.redhat.com/en/search?searchType=containers",
+                    "vcs-ref": "4355509c0ae97480fdce08ec46742f3c713993b4",
+                    "vcs-type": "git",
+                    "vendor": "Red Hat, Inc.",
+                    "version": "10.3"
+               }
+          },
+          "Version": "",
+          "Author": "",
+          "Architecture": "amd64",
+          "Os": "linux",
+          "Size": 848426966,
+          "VirtualSize": 848426966,
+          "GraphDriver": {
+               "Name": "overlay",
+               "Data": {
+                    "LowerDir": "/var/lib/containers/storage/overlay/5cfca78aa35ff21df104710031b9bf268b4cf9554d054b884c3d341dd9c71209/diff:/var/lib/containers/storage/overlay/db498ea39e8f964a02872d5cceabd4f68e7c469069131a1f657e2f3f8970fe2f/diff:/var/lib/containers/storage/overlay/4dd83cc8441ca2001eb33a752e5ce8fa8b76e6d934e9c8a1bc2f3b26bdb10032/diff:/var/lib/containers/storage/overlay/ae6e916b1ea1816813684e316b287476cc715151306f9cc0887cf1d55db3ced3/diff:/var/lib/containers/storage/overlay/515a36e8eae4595e2190593a512477c5dd59478277254b7176fe3b773580bbee/diff:/var/lib/containers/storage/overlay/664fbf71d68f31277a01f8baa9f5a16bf93c4e14a36e5250e089022acb98b295/diff:/var/lib/containers/storage/overlay/f28daa54e73d1c258dd52b96149b0a604184ccca08874ea1fb9e843fe54d1106/diff:/var/lib/containers/storage/overlay/c62d9325f5e114283b4da23db3463ff5bd45bc1967181dbdce8f94c3ab8f6243/diff:/var/lib/containers/storage/overlay/03cca97a0fffd0d2e0ad3fbcdb98326ed0274cc304cd63d40ea4779c0c20b86e/diff:/var/lib/containers/storage/overlay/dd1db128495ddd4174b53cdd88615dab69be90da8c267954c48e4a1c25a2b0df/diff:/var/lib/containers/storage/overlay/65a729bc2ff0b082f52108f59648b0ad1f8f30cc31353aa5ec7664ebf702afc6/diff:/var/lib/containers/storage/overlay/bc2079d19856acaca21bc37c14ff0b81468df5d9c7a601c4feb1d7753e392b5f/diff:/var/lib/containers/storage/overlay/73e1198fd4132e2bb625e5b3dd0d220a4922ad103790fd9d9204e956b384be38/diff:/var/lib/containers/storage/overlay/e319e0734e894baeb0e99f0d39d448e905703cae34ab888540b1046c960cfefe/diff:/var/lib/containers/storage/overlay/d5cc5e999f102848bf9609a65759a339c25f4cceecdd7063a2d1b88f9e81cc99/diff:/var/lib/containers/storage/overlay/00ad7bec33ce5ab5a0d0749399cdfc5f59b59e44b17ffd137611c76fc4488d6d/diff:/var/lib/containers/storage/overlay/94e73230a36460967bfdce949159262008cff2add91e6cf883e6bcfa19799254/diff:/var/lib/containers/storage/overlay/1132d32e83c0c998df5c9bd7570d5ac1dcc49b04d1e5fc4d3aed61a4f29c94d4/diff:/var/lib/containers/storage/overlay/54960fea18182167bf752a46b028dfebc65049c3cb6b7c1ecb910c7c04d98481/diff",
+                    "UpperDir": "/var/lib/containers/storage/overlay/d7f68fa7496b2edfd2fdd6eab001e75ba11f1259de9779d605c54535c267a753/diff",
+                    "WorkDir": "/var/lib/containers/storage/overlay/d7f68fa7496b2edfd2fdd6eab001e75ba11f1259de9779d605c54535c267a753/work"
+               }
+          },
+          "RootFS": {
+               "Type": "layers",
+               "Layers": [
+                    "sha256:54960fea18182167bf752a46b028dfebc65049c3cb6b7c1ecb910c7c04d98481",
+                    "sha256:aa446458ca66d96571885efb59a3f1db7551dbd615f5be514aa0830019816f14",
+                    "sha256:90ac0dc37745dc197f061e7ae681eff690e60ab8c14aa6937143aa5a690f400d",
+                    "sha256:c67cd24d89f567169a8086811bd32495fc34c0c93b6e799ba17f53d7116189ce",
+                    "sha256:90f73469fb30f97ac283b7b615814893585a4030c6c3312eb7a946f1e12dc3c6",
+                    "sha256:4ee072b424756e79ac91d8b70b547a6ef56b497330bc069d512a46a8067ad6a4",
+                    "sha256:4fc663e5ad9081d369f3e601e341943c44c1375504f7bad0bb4af1659434fe4f",
+                    "sha256:2618ccf332a5214ef484c331547044bb7aa4d35fcbb5a7c8548523a8bac1eafc",
+                    "sha256:25a6f3583d6d66dbd8c89e058b40d81df9e6044435e1a20ffc49cd01b7de9d75",
+                    "sha256:b9032d062809caac1baba7baf043f4345ef912d59c7df297c037528e981f7ef6",
+                    "sha256:d7f8989b58efe2985b9eebc704d64fb25242507e0370b48673778d643c60ac3a",
+                    "sha256:06deac057909575b217e7dd35a9f4a53063872199ccb6a9c261fc58ab31a7383",
+                    "sha256:451553cd6ed8e964c0f320649e34f8d8fd2702947bb6d8c92f74d864f7366c08",
+                    "sha256:f74ab229fab52939f9c6ab7ca654e9e239f0611f5aad7dcabfacc8bc9dd19be7",
+                    "sha256:004566da372889aa24fa42a22ba457685a9c4e1e957e3577b8b579ac898c1b62",
+                    "sha256:3a1a8580e796049096da3d0abdb4ffcfac7d6e3792a03c778e1769f099cf347e",
+                    "sha256:8a49b75b8afbbf06c43df5e2ac4daee6a01675cf36ff493c8d698396f42c1c6a",
+                    "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
+                    "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
+                    "sha256:e70174a9f438e70921144717ef93e6cd4f2910dd5fa032759b4b2841d7575389"
+               ]
+          },
+          "Labels": {
+               "ansible-execution-environment": "true",
+               "architecture": "x86_64",
+               "build-date": "2026-11-20T19:15:00Z",
+               "com.redhat.component": "ubi10-container",
+               "com.redhat.license_terms": "https://www.redhat.com/en/about/red-hat-end-user-license-agreements#UBI",
+               "cpe": "cpe:/o:redhat:enterprise_linux:10.3",
+               "description": "The Universal Base Image is designed and engineered to be the base layer for all of your containerized applications, middleware and utilities. This base image is freely redistributable, but Red Hat only supports Red Hat technologies through subscriptions for Red Hat products. This image is maintained by Red Hat and updated regularly.",
+               "distribution-scope": "public",
+               "io.buildah.version": "1.43.1",
+               "io.k8s.description": "The Universal Base Image is designed and engineered to be the base layer for all of your containerized applications, middleware and utilities. This base image is freely redistributable, but Red Hat only supports Red Hat technologies through subscriptions for Red Hat products. This image is maintained by Red Hat and updated regularly.",
+               "io.k8s.display-name": "Red Hat Universal Base Image 10",
+               "io.openshift.expose-services": "",
+               "io.openshift.tags": "base rhel10",
+               "maintainer": "Red Hat, Inc.",
+               "name": "ubi10/ubi",
+               "org.opencontainers.image.created": "2026-11-20T19:15:00Z",
+               "org.opencontainers.image.revision": "4355509c0ae97480fdce08ec46742f3c713993b4",
+               "release": "1795201936",
+               "summary": "Provides the latest release of Red Hat Universal Base Image 10.",
+               "url": "https://catalog.redhat.com/en/search?searchType=containers",
+               "vcs-ref": "4355509c0ae97480fdce08ec46742f3c713993b4",
+               "vcs-type": "git",
+               "vendor": "Red Hat, Inc.",
+               "version": "10.3"
+          },
+          "Annotations": {
+               "org.opencontainers.image.base.digest": "sha256:6d7de990948e8a2880a73f17679e5a469bd32eb4d7af5c56b2c1ffe861e5af90",
+               "org.opencontainers.image.base.name": "registry.access.redhat.com/ubi10/ubi:latest",
+               "org.opencontainers.image.created": "2026-11-26T23:05:44.736175134Z",
+               "org.opencontainers.image.revision": "4355509c0ae97480fdce08ec46742f3c713993b4"
+          },
+          "ManifestType": "application/vnd.oci.image.manifest.v1+json",
+          "User": "1000",
+          "History": [
+               {
+                    "created": "2026-11-20T19:15:27.554557544Z",
+                    "created_by": "/bin/sh -c #(nop) LABEL maintainer=\"Red Hat, Inc.\"       vendor=\"Red Hat, Inc.\"       url=\"https://catalog.redhat.com/en/search?searchType=containers\"       com.redhat.component=\"ubi10-container\"       name=\"ubi10/ubi\"       cpe=\"cpe:/o:redhat:enterprise_linux:10.3\"       version=\"10.3\"       distribution-scope=\"public\"",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2026-11-20T19:15:27.591734613Z",
+                    "created_by": "/bin/sh -c #(nop) LABEL com.redhat.license_terms=\"https://www.redhat.com/en/about/red-hat-end-user-license-agreements#UBI\"",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2026-11-20T19:15:27.630110564Z",
+                    "created_by": "/bin/sh -c #(nop) LABEL summary=\"Provides the latest release of Red Hat Universal Base Image 10.\"",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2026-11-20T19:15:27.667475394Z",
+                    "created_by": "/bin/sh -c #(nop) LABEL description=\"The Universal Base Image is designed and engineered to be the base layer for all of your containerized applications, middleware and utilities. This base image is freely redistributable, but Red Hat only supports Red Hat technologies through subscriptions for Red Hat products. This image is maintained by Red Hat and updated regularly.\"",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2026-11-20T19:15:27.706644463Z",
+                    "created_by": "/bin/sh -c #(nop) LABEL io.k8s.description=\"The Universal Base Image is designed and engineered to be the base layer for all of your containerized applications, middleware and utilities. This base image is freely redistributable, but Red Hat only supports Red Hat technologies through subscriptions for Red Hat products. This image is maintained by Red Hat and updated regularly.\"",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2026-11-20T19:15:27.745252218Z",
+                    "created_by": "/bin/sh -c #(nop) LABEL io.k8s.display-name=\"Red Hat Universal Base Image 10\"",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2026-11-20T19:15:27.783429067Z",
+                    "created_by": "/bin/sh -c #(nop) LABEL io.openshift.expose-services=\"\"",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2026-11-20T19:15:27.821550072Z",
+                    "created_by": "/bin/sh -c #(nop) LABEL io.openshift.tags=\"base rhel10\"",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2026-11-20T19:15:27.859106904Z",
+                    "created_by": "/bin/sh -c #(nop) ENV container oci",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2026-11-20T19:15:29.548047414Z",
+                    "created_by": "/bin/sh -c #(nop) COPY dir:41680d2572400324491481ed68165495e1b823846e70232f92103162348b0358 in /      ",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2026-11-20T19:15:29.762235188Z",
+                    "created_by": "/bin/sh -c #(nop) COPY file:7434e7ac38eae122961f7433f94f69681ae6b7673c89bc0a33c8831ed9c5dbfc in /etc/yum.repos.d/.      ",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2026-11-20T19:15:29.80011975Z",
+                    "created_by": "/bin/sh -c #(nop) CMD [\"/bin/bash\"]",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2026-11-20T19:15:30.018215871Z",
+                    "created_by": "/bin/sh -c #(nop) COPY dir:e27be629f14cb9661c4a22d57d242ee83da4472d477a7760c84286cfcc8537b3 in /usr/share/buildinfo/      ",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2026-11-20T19:15:30.23314973Z",
+                    "created_by": "/bin/sh -c #(nop) COPY dir:e27be629f14cb9661c4a22d57d242ee83da4472d477a7760c84286cfcc8537b3 in /root/buildinfo/      ",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2026-11-20T19:15:31.083885764Z",
+                    "created_by": "/bin/sh -c #(nop) LABEL \"org.opencontainers.image.created\"=\"2026-11-20T19:15:00Z\" \"org.opencontainers.image.revision\"=\"4355509c0ae97480fdce08ec46742f3c713993b4\" \"build-date\"=\"2026-11-20T19:15:00Z\" \"architecture\"=\"x86_64\" \"vcs-ref\"=\"4355509c0ae97480fdce08ec46742f3c713993b4\" \"vcs-type\"=\"git\" \"release\"=\"1795201936\"org.opencontainers.image.created=2026-11-20T19:15:00Z,org.opencontainers.image.revision=4355509c0ae97480fdce08ec46742f3c713993b4"
+               },
+               {
+                    "created": "2026-11-26T23:00:28.832857772Z",
+                    "created_by": "/bin/sh -c #(nop) USER root",
+                    "comment": "FROM registry.access.redhat.com/ubi10/ubi:latest",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2026-11-26T23:00:28.965258346Z",
+                    "created_by": "/bin/sh -c #(nop) ENV PIP_BREAK_SYSTEM_PACKAGES=1",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2026-11-26T23:00:29.10134717Z",
+                    "created_by": "/bin/sh -c #(nop) ARG EE_BASE_IMAGE",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2026-11-26T23:00:29.234450476Z",
+                    "created_by": "/bin/sh -c #(nop) ARG EE_BASE_IMAGE PYCMD",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2026-11-26T23:00:29.370885794Z",
+                    "created_by": "/bin/sh -c #(nop) ARG EE_BASE_IMAGE PYCMD PYPKG",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2026-11-26T23:00:29.498262211Z",
+                    "created_by": "/bin/sh -c #(nop) ARG EE_BASE_IMAGE PKGMGR_PRESERVE_CACHE PYCMD PYPKG",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2026-11-26T23:00:29.63007945Z",
+                    "created_by": "/bin/sh -c #(nop) ARG ANSIBLE_GALAXY_CLI_COLLECTION_OPTS EE_BASE_IMAGE PKGMGR_PRESERVE_CACHE PYCMD PYPKG",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2026-11-26T23:00:29.75809813Z",
+                    "created_by": "/bin/sh -c #(nop) ARG ANSIBLE_GALAXY_CLI_COLLECTION_OPTS ANSIBLE_GALAXY_CLI_ROLE_OPTS EE_BASE_IMAGE PKGMGR_PRESERVE_CACHE PYCMD PYPKG",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2026-11-26T23:00:29.886170485Z",
+                    "created_by": "/bin/sh -c #(nop) ARG ANSIBLE_GALAXY_CLI_COLLECTION_OPTS ANSIBLE_GALAXY_CLI_ROLE_OPTS ANSIBLE_INSTALL_REFS EE_BASE_IMAGE PKGMGR_PRESERVE_CACHE PYCMD PYPKG",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2026-11-26T23:00:30.013118363Z",
+                    "created_by": "/bin/sh -c #(nop) ARG ANSIBLE_GALAXY_CLI_COLLECTION_OPTS ANSIBLE_GALAXY_CLI_ROLE_OPTS ANSIBLE_INSTALL_REFS EE_BASE_IMAGE PKGMGR PKGMGR_PRESERVE_CACHE PYCMD PYPKG",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2026-11-26T23:00:31.033910552Z",
+                    "created_by": "/bin/sh -c #(nop) COPY dir:6026349de0f29c6cd38a89ac9c0fd78da41700f58ac1ad0a97d078ddc49a97d7 in /output/scripts/      "
+               },
+               {
+                    "created": "2026-11-26T23:00:32.000414596Z",
+                    "created_by": "/bin/sh -c #(nop) COPY file:d93e35def0308fd25228e6c7dfc29465d859219fa4be16050407a8627e42576d in /opt/builder/bin/entrypoint      "
+               },
+               {
+                    "created": "2026-11-26T23:00:34.387409045Z",
+                    "created_by": "|9 ANSIBLE_GALAXY_CLI_COLLECTION_OPTS= ANSIBLE_GALAXY_CLI_ROLE_OPTS= ANSIBLE_INSTALL_REFS=ansible-core==2.21.6 ansible-runner EE_BASE_IMAGE=registry.access.redhat.com/ubi10/ubi:latest PKGMGR=/usr/bin/dnf PKGMGR_PRESERVE_CACHE= PYCMD=/usr/bin/python3.12 PYPKG=python3 /bin/sh -c dnf update -y"
+               },
+               {
+                    "created": "2026-11-26T23:00:36.122964635Z",
+                    "created_by": "|9 ANSIBLE_GALAXY_CLI_COLLECTION_OPTS= ANSIBLE_GALAXY_CLI_ROLE_OPTS= ANSIBLE_INSTALL_REFS=ansible-core==2.21.6 ansible-runner EE_BASE_IMAGE=registry.access.redhat.com/ubi10/ubi:latest PKGMGR=/usr/bin/dnf PKGMGR_PRESERVE_CACHE= PYCMD=/usr/bin/python3.12 PYPKG=python3 /bin/sh -c $PKGMGR install $PYPKG -y ; if [ -z $PKGMGR_PRESERVE_CACHE ]; then $PKGMGR clean all; fi"
+               },
+               {
+                    "created": "2026-11-26T23:00:39.621403465Z",
+                    "created_by": "|9 ANSIBLE_GALAXY_CLI_COLLECTION_OPTS= ANSIBLE_GALAXY_CLI_ROLE_OPTS= ANSIBLE_INSTALL_REFS=ansible-core==2.21.6 ansible-runner EE_BASE_IMAGE=registry.access.redhat.com/ubi10/ubi:latest PKGMGR=/usr/bin/dnf PKGMGR_PRESERVE_CACHE= PYCMD=/usr/bin/python3.12 PYPKG=python3 /bin/sh -c /output/scripts/pip_install $PYCMD"
+               },
+               {
+                    "created": "2026-11-26T23:00:44.895142818Z",
+                    "created_by": "|9 ANSIBLE_GALAXY_CLI_COLLECTION_OPTS= ANSIBLE_GALAXY_CLI_ROLE_OPTS= ANSIBLE_INSTALL_REFS=ansible-core==2.21.6 ansible-runner EE_BASE_IMAGE=registry.access.redhat.com/ubi10/ubi:latest PKGMGR=/usr/bin/dnf PKGMGR_PRESERVE_CACHE= PYCMD=/usr/bin/python3.12 PYPKG=python3 /bin/sh -c $PYCMD -m pip install --no-cache-dir $ANSIBLE_INSTALL_REFS"
+               },
+               {
+                    "created": "2026-11-26T23:00:49.237138512Z",
+                    "created_by": "|9 ANSIBLE_GALAXY_CLI_COLLECTION_OPTS= ANSIBLE_GALAXY_CLI_ROLE_OPTS= ANSIBLE_INSTALL_REFS=ansible-core==2.21.6 ansible-runner EE_BASE_IMAGE=registry.access.redhat.com/ubi10/ubi:latest PKGMGR=/usr/bin/dnf PKGMGR_PRESERVE_CACHE= PYCMD=/usr/bin/python3.12 PYPKG=python3 /bin/sh -c $PYCMD -m pip install --no-cache-dir --upgrade pip setuptools wheel"
+               },
+               {
+                    "created": "2026-11-26T23:04:20.614094005Z",
+                    "created_by": "/bin/sh -c #(nop) ENV PIP_BREAK_SYSTEM_PACKAGES=1",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2026-11-26T23:04:20.777341899Z",
+                    "created_by": "/bin/sh -c #(nop) ARG ANSIBLE_GALAXY_CLI_COLLECTION_OPTS ANSIBLE_GALAXY_CLI_ROLE_OPTS ANSIBLE_INSTALL_REFS EE_BASE_IMAGE PKGMGR PKGMGR_PRESERVE_CACHE PYCMD PYPKG",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2026-11-26T23:04:20.942927285Z",
+                    "created_by": "/bin/sh -c #(nop) ARG ANSIBLE_GALAXY_CLI_COLLECTION_OPTS ANSIBLE_GALAXY_CLI_ROLE_OPTS ANSIBLE_INSTALL_REFS EE_BASE_IMAGE PKGMGR PKGMGR_PRESERVE_CACHE PYCMD PYPKG",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2026-11-26T23:04:21.122246571Z",
+                    "created_by": "/bin/sh -c #(nop) ARG ANSIBLE_GALAXY_CLI_COLLECTION_OPTS ANSIBLE_GALAXY_CLI_ROLE_OPTS ANSIBLE_INSTALL_REFS EE_BASE_IMAGE PKGMGR PKGMGR_PRESERVE_CACHE PYCMD PYPKG",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2026-11-26T23:04:21.290245187Z",
+                    "created_by": "/bin/sh -c #(nop) ARG ANSIBLE_GALAXY_CLI_COLLECTION_OPTS ANSIBLE_GALAXY_CLI_ROLE_OPTS ANSIBLE_INSTALL_REFS EE_BASE_IMAGE PKGMGR PKGMGR_PRESERVE_CACHE PYCMD PYPKG",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2026-11-26T23:04:21.469730832Z",
+                    "created_by": "/bin/sh -c #(nop) ARG ANSIBLE_GALAXY_CLI_COLLECTION_OPTS ANSIBLE_GALAXY_CLI_ROLE_OPTS ANSIBLE_INSTALL_REFS EE_BASE_IMAGE PKGMGR PKGMGR_PRESERVE_CACHE PYCMD PYPKG",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2026-11-26T23:04:21.667395317Z",
+                    "created_by": "/bin/sh -c #(nop) ARG ANSIBLE_GALAXY_CLI_COLLECTION_OPTS ANSIBLE_GALAXY_CLI_ROLE_OPTS ANSIBLE_INSTALL_REFS EE_BASE_IMAGE PKGMGR PKGMGR_PRESERVE_CACHE PYCMD PYPKG",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2026-11-26T23:04:21.881408433Z",
+                    "created_by": "/bin/sh -c #(nop) ARG ANSIBLE_GALAXY_CLI_COLLECTION_OPTS ANSIBLE_GALAXY_CLI_ROLE_OPTS ANSIBLE_INSTALL_REFS EE_BASE_IMAGE PKGMGR PKGMGR_PRESERVE_CACHE PYCMD PYPKG",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2026-11-26T23:04:22.080386218Z",
+                    "created_by": "/bin/sh -c #(nop) ARG ANSIBLE_GALAXY_CLI_COLLECTION_OPTS ANSIBLE_GALAXY_CLI_ROLE_OPTS ANSIBLE_INSTALL_REFS EE_BASE_IMAGE PKGMGR PKGMGR_PRESERVE_CACHE PYCMD PYPKG",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2026-11-26T23:04:22.233992191Z",
+                    "created_by": "/bin/sh -c #(nop) ENV PIP_IGNORE_INSTALLED=1",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2026-11-26T23:04:24.508942291Z",
+                    "created_by": "|9 ANSIBLE_GALAXY_CLI_COLLECTION_OPTS= ANSIBLE_GALAXY_CLI_ROLE_OPTS= ANSIBLE_INSTALL_REFS=ansible-core==2.21.6 ansible-runner EE_BASE_IMAGE=registry.access.redhat.com/ubi10/ubi:latest PKGMGR=/usr/bin/dnf PKGMGR_PRESERVE_CACHE= PYCMD=/usr/bin/python3.12 PYPKG=python3 /bin/sh -c /output/scripts/check_ansible $PYCMD"
+               },
+               {
+                    "created": "2026-11-26T23:04:28.653870967Z",
+                    "created_by": "/bin/sh -c #(nop) COPY dir:ff29383f7b209eecea7096faaa10f44487d58a4b14c3fb8966546befdbfb3699 in /usr/share/ansible      "
+               },
+               {
+                    "created": "2026-11-26T23:04:32.631104278Z",
+                    "created_by": "/bin/sh -c #(nop) COPY dir:730821a8c993f35fbcb822ce0d10d4bfa880b2361c8510d3dc3e93f07f4058dd in /output/      "
+               },
+               {
+                    "created": "2026-11-26T23:05:03.831278339Z",
+                    "created_by": "|9 ANSIBLE_GALAXY_CLI_COLLECTION_OPTS= ANSIBLE_GALAXY_CLI_ROLE_OPTS= ANSIBLE_INSTALL_REFS=ansible-core==2.21.6 ansible-runner EE_BASE_IMAGE=registry.access.redhat.com/ubi10/ubi:latest PKGMGR=/usr/bin/dnf PKGMGR_PRESERVE_CACHE= PYCMD=/usr/bin/python3.12 PYPKG=python3 /bin/sh -c /output/scripts/install-from-bindep && rm -rf /output/wheels"
+               },
+               {
+                    "created": "2026-11-26T23:05:12.846618371Z",
+                    "created_by": "|9 ANSIBLE_GALAXY_CLI_COLLECTION_OPTS= ANSIBLE_GALAXY_CLI_ROLE_OPTS= ANSIBLE_INSTALL_REFS=ansible-core==2.21.6 ansible-runner EE_BASE_IMAGE=registry.access.redhat.com/ubi10/ubi:latest PKGMGR=/usr/bin/dnf PKGMGR_PRESERVE_CACHE= PYCMD=/usr/bin/python3.12 PYPKG=python3 /bin/sh -c chmod ug+rw /etc/passwd"
+               },
+               {
+                    "created": "2026-11-26T23:05:17.409566492Z",
+                    "created_by": "|9 ANSIBLE_GALAXY_CLI_COLLECTION_OPTS= ANSIBLE_GALAXY_CLI_ROLE_OPTS= ANSIBLE_INSTALL_REFS=ansible-core==2.21.6 ansible-runner EE_BASE_IMAGE=registry.access.redhat.com/ubi10/ubi:latest PKGMGR=/usr/bin/dnf PKGMGR_PRESERVE_CACHE= PYCMD=/usr/bin/python3.12 PYPKG=python3 /bin/sh -c mkdir -p /runner && chgrp 0 /runner && chmod -R ug+rwx /runner"
+               },
+               {
+                    "created": "2026-11-26T23:05:17.601421306Z",
+                    "created_by": "/bin/sh -c #(nop) WORKDIR /runner",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2026-11-26T23:05:22.24329097Z",
+                    "created_by": "|9 ANSIBLE_GALAXY_CLI_COLLECTION_OPTS= ANSIBLE_GALAXY_CLI_ROLE_OPTS= ANSIBLE_INSTALL_REFS=ansible-core==2.21.6 ansible-runner EE_BASE_IMAGE=registry.access.redhat.com/ubi10/ubi:latest PKGMGR=/usr/bin/dnf PKGMGR_PRESERVE_CACHE= PYCMD=/usr/bin/python3.12 PYPKG=python3 /bin/sh -c $PYCMD -m pip install --no-cache-dir 'dumb-init==1.2.5'"
+               },
+               {
+                    "created": "2026-11-26T23:05:22.443534228Z",
+                    "created_by": "/bin/sh -c #(nop) ENV PIP_IGNORE_INSTALLED=0",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2026-11-26T23:05:27.06810686Z",
+                    "created_by": "|9 ANSIBLE_GALAXY_CLI_COLLECTION_OPTS= ANSIBLE_GALAXY_CLI_ROLE_OPTS= ANSIBLE_INSTALL_REFS=ansible-core==2.21.6 ansible-runner EE_BASE_IMAGE=registry.access.redhat.com/ubi10/ubi:latest PKGMGR=/usr/bin/dnf PKGMGR_PRESERVE_CACHE= PYCMD=/usr/bin/python3.12 PYPKG=python3 /bin/sh -c dnf clean all"
+               },
+               {
+                    "created": "2026-11-26T23:05:31.247521931Z",
+                    "created_by": "|9 ANSIBLE_GALAXY_CLI_COLLECTION_OPTS= ANSIBLE_GALAXY_CLI_ROLE_OPTS= ANSIBLE_INSTALL_REFS=ansible-core==2.21.6 ansible-runner EE_BASE_IMAGE=registry.access.redhat.com/ubi10/ubi:latest PKGMGR=/usr/bin/dnf PKGMGR_PRESERVE_CACHE= PYCMD=/usr/bin/python3.12 PYPKG=python3 /bin/sh -c rm -rf /var/cache/dnf"
+               },
+               {
+                    "created": "2026-11-26T23:05:35.724027551Z",
+                    "created_by": "|9 ANSIBLE_GALAXY_CLI_COLLECTION_OPTS= ANSIBLE_GALAXY_CLI_ROLE_OPTS= ANSIBLE_INSTALL_REFS=ansible-core==2.21.6 ansible-runner EE_BASE_IMAGE=registry.access.redhat.com/ubi10/ubi:latest PKGMGR=/usr/bin/dnf PKGMGR_PRESERVE_CACHE= PYCMD=/usr/bin/python3.12 PYPKG=python3 /bin/sh -c $PYCMD -m pip show pip setuptools wheel"
+               },
+               {
+                    "created": "2026-11-26T23:05:40.158710713Z",
+                    "created_by": "|9 ANSIBLE_GALAXY_CLI_COLLECTION_OPTS= ANSIBLE_GALAXY_CLI_ROLE_OPTS= ANSIBLE_INSTALL_REFS=ansible-core==2.21.6 ansible-runner EE_BASE_IMAGE=registry.access.redhat.com/ubi10/ubi:latest PKGMGR=/usr/bin/dnf PKGMGR_PRESERVE_CACHE= PYCMD=/usr/bin/python3.12 PYPKG=python3 /bin/sh -c $PYCMD -m pip check"
+               },
+               {
+                    "created": "2026-11-26T23:05:44.339934596Z",
+                    "created_by": "|9 ANSIBLE_GALAXY_CLI_COLLECTION_OPTS= ANSIBLE_GALAXY_CLI_ROLE_OPTS= ANSIBLE_INSTALL_REFS=ansible-core==2.21.6 ansible-runner EE_BASE_IMAGE=registry.access.redhat.com/ubi10/ubi:latest PKGMGR=/usr/bin/dnf PKGMGR_PRESERVE_CACHE= PYCMD=/usr/bin/python3.12 PYPKG=python3 /bin/sh -c rm -rf /output"
+               },
+               {
+                    "created": "2026-11-26T23:05:44.519491055Z",
+                    "created_by": "/bin/sh -c #(nop) LABEL ansible-execution-environment=true",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2026-11-26T23:05:44.589543806Z",
+                    "created_by": "/bin/sh -c #(nop) USER 1000",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2026-11-26T23:05:44.66301935Z",
+                    "created_by": "/bin/sh -c #(nop) ENTRYPOINT [\"/opt/builder/bin/entrypoint\", \"dumb-init\"]",
+                    "empty_layer": true
+               },
+               {
+                    "created": "2026-11-26T23:05:44.736408542Z",
+                    "created_by": "/bin/sh -c #(nop) CMD [\"bash\"]",
+                    "empty_layer": true
+               }
+          ],
+          "NamesHistory": [
+               "localhost/ansible-ee-ubi10:1.0.2"
+          ]
+     }
+]

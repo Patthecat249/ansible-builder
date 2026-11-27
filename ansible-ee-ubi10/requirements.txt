@@ -1,0 +1,6 @@
+pyvmomi
+awxkit
+kubernetes
+jmespath
+requests
+netaddr
